@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+@import 'includes/reset';
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  @apply bg-white;
+  @apply text-black;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
